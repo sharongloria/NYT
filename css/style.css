@@ -6,6 +6,7 @@ nav{
     display: flex;
     background-color: #ffffff;
     border-bottom: 1px solid darkgrey;
+
 }
 nav li{
 display: inline;
@@ -93,7 +94,17 @@ cursor: pointer;
     display: inline-block;
    
 }
-#space1{
+.spaces{
+    font-size: 25px;
+    line-height: 20px;
+    color: #666;
+    padding-left: 50px;
+    border: 2px;
+    margin-left:-80px;
+    padding-top: 10px;
+    
+}
+.space1{
     font-size: 25px;
     line-height: 20px;
     color: #666;
@@ -189,4 +200,27 @@ b{
     font-size: 20px;
     color: rgb(102, 102,102);
     margin-bottom: 30px;
+}
+.telescope-pic{
+    width: 900px;
+    height: 600px;
+    margin-left: -40px;
+}
+footer ul{
+    margin-left: 100px;
+}
+footer li {
+    display: inline;
+    list-style-type:none;
+    justify-content: space-between;
+    color: rgb(102, 102,102);
+    font-size: 20px;
+    padding-right: 10px;
+}
+footer li a{
+    color: rgb(102, 102,102);
+    text-decoration: none;
+}
+footer li a:hover{
+    text-decoration: underline;
 }
